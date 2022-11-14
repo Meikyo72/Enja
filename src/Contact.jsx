@@ -22,7 +22,7 @@ Fyll i formuläret så kontaktar vi dig inom kort….
       <input type="text" name="user_name" />
       <label>Epostadress</label>
       <input type="email" name="user_email" />
-      <label>Medelande</label>
+      <label>Meddelande</label>
       <textarea name="message" />
       <input type="submit" value="Skicka" />
     </form>
