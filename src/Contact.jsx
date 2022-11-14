@@ -16,15 +16,17 @@ return (
 <br/>
 Fyll i formuläret så kontaktar vi dig inom kort….
 </p>
+<div className='form-container'>
 <form ref={form} onSubmit={sendEmail}>
-      <label>Namn</label>
+      <label>Ert namn</label>
       <input type="text" name="user_name" />
-      <label>Epost</label>
+      <label>Eran epostadress</label>
       <input type="email" name="user_email" />
-      <label>Medelande</label>
+      <label>Ert medelande</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="submit" value="Skicka" />
     </form>
+    </div>
 </div>
 
 );
