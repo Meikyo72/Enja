@@ -18,11 +18,11 @@ Fyll i formuläret så kontaktar vi dig inom kort….
 </p>
 <div className='form-container'>
 <form ref={form} onSubmit={sendEmail}>
-      <label>Ert namn</label>
+      <label>Namn</label>
       <input type="text" name="user_name" />
-      <label>Eran epostadress</label>
+      <label>Epostadress</label>
       <input type="email" name="user_email" />
-      <label>Ert medelande</label>
+      <label>Medelande</label>
       <textarea name="message" />
       <input type="submit" value="Skicka" />
     </form>

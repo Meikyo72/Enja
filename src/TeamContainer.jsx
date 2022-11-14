@@ -6,6 +6,32 @@ return (
 
 <div className="team-container" id="team">
 <h1>Våra Konsulter</h1>
+<div className='card-container'>
+<div className="card">
+    <img src={ulrika} alt="Ulrika" />
+    <h1>Ulrika</h1>
+    <p className="title">
+        CFO & Grundare, Konsult
+    </p>
+    <p> Ulrica har sin bakgrund inom utbildningsområdet.
+        Hon har arbetat många år som rektor, som kvalitets- 
+         och utvecklingschef, planeringsledare på strategisk nivå och är certifierad projektledare.
+    </p>
+    <p><button className="button">Kontakta Ulrika</button></p>
+</div>
+<div className="card">
+    <img src={asa} alt="Asa" />
+    <h1>Asa</h1>
+    <p className="title">
+        COO & Grundare, Konsult
+    </p>
+    <p>
+        Åsa har närmare 20 års erfarenhet av organisations- och verksamhetsutvecklingsfrågor 
+        både i rollen som linjechef, utredare, förändringsledare och certifierad projektledare. 
+    </p>
+    <p><button className="button">Kontakta Åsa</button></p>
+</div>
+</div>
 <table className="teamTable">
 <thead>
 <tr>
