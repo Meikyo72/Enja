@@ -1,12 +1,12 @@
-import headimg from './assets/headimg.jpg';
+import Tillsammans1 from './assets/Tillsammans1.png';
 
 function AboutRow() {
 
 return (
 
 <div className="about-container">
-<h1>Om Oss</h1>
-<img src={headimg} alt="landskap" />
+<h1>Om <span className='enjaLogo'>EnJa</span></h1>
+<img src={Tillsammans1} alt="Tillsammans" />
 <p>
 EnJa är ett nybildat svenskt konsultbolag med vilja och ambition att driva förändring och skapa förutsättningar för önskvärda effekter och bestående värde utifrån kundens behov inom näringsliv och offentlig sektor.
 </p>

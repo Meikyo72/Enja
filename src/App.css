@@ -8,7 +8,7 @@ body {
 
 #root {
   max-width: 1280px;
-  min-width: 580px;
+  min-width: 820px;
   margin: 0 auto;
   text-align: center;
 }
@@ -73,7 +73,7 @@ body {
 .image-header h1 {
   font-family: 'Caveat', cursive;
   font-size: 8rem;
-  color: #0e0903;
+  color: #e38c2d;
   order: 1;
   margin-left: auto;
   width: 55%;
@@ -89,6 +89,8 @@ body {
   font-style: italic;
 }
 
+/* Team ---- Start*/
+
 .team-container {
   display: flex;
   flex-direction: column;
@@ -96,11 +98,16 @@ body {
   padding: 1rem;
   /*background-color: #f9f8f7;*/
   background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));
-  /*overflow: scroll;
-  overflow-x: hidden;*/
+  overflow: scroll;
+  overflow-x: hidden;
 }
-.team-container img {
-  width: 250px;
+.team-container .team-header h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 4rem;
+  color: #e38c2d;
+}
+.team-container .card-container .card img {
+  width: auto;
   height: 250px;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);  
 }
@@ -139,6 +146,79 @@ body {
 .team-container .card .button:hover{
   opacity: 0.7;
 }
+.team-container .modalContainer{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.team-container .teamModal {
+  z-index: 1;
+  height: 85vh;
+  width: 70vw;
+  min-width: 700px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 244, 244, 0.97);
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.team-container .teamModal .modalHeader {
+  padding: 1rem;
+  color: #0e0903;
+}
+.team-container .teamModal .modalBody{
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.team-container .teamModal .modalBody .modalImage {
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+}
+.team-container .teamModal .modalBody .modalImage img{
+  width: auto;
+  height: 500px;
+  margin: 1rem;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
+.team-container .teamModal .modalBody .modalText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+.team-container .teamModal .modalBody .modalText p{
+  margin: 10px auto 0 0;
+  text-align: left;
+}
+.team-container .teamModal .modalFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin-top: -4rem;
+}
+.team-container .teamModal button{
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #d55a29;
+  color: #f5f4f4;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+/* Team --- End*/
 
 .services-container {
   display: flex;
@@ -166,18 +246,24 @@ body {
   overflow: scroll;
   overflow-x: hidden;
 }
+.about-container .enjaLogo {
+  font-family: 'Caveat', cursive;
+  font-weight: 900;
+  font-size: 4rem;
+  color:#e38c2d;
+}
 .about-container img {
-  width: 400px;
+  width: auto;
   height: 300px;
   border-radius: 25px;
   margin: 0 auto;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 .about-container p {
-  margin: 20px auto;
+  display: block;
+  margin: 10px auto 0 auto;
   width: 50%;
   text-align: left;
-  font-style: italic;
 }
 
 .contact-container {
@@ -241,67 +327,19 @@ body {
 .bannerTable a {
   text-decoration: none;
   color: #0e0903;
+  text-align: left;
 }
 .bannerTable a:hover {
-  font-style: italic;
-  color: #02556e;
+  opacity: 0.7;
 }
 .bannerTable tbody {
   width: 100%;
 }
-.bannerTable tr:nth-child(1) {
+.bannerTable tr {
   display: flex;
   width: 100%;
   justify-content: flex-start;
-  /*animation-name: bannerAnimation;*/
-  animation-duration: 7s;
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-.bannerTable tr:nth-child(2) {
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  /*animation-name: bannerAnimation;*/
-  animation-duration: 6s;
-  animation-delay: 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-.bannerTable tr:nth-child(3) {
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  /*animation-name: bannerAnimation;*/
-  animation-duration: 5s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
-@keyframes bannerAnimation {
-  0% {
-    opacity: 0;
-    transform: translateX(-50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-    
-  }
-}
-.teamTable {
-  margin-top: 5%;
-  border: #00303f 2px solid;
-  border-radius: 25px;
 }
 
-.teamTable td {
-  vertical-align: text-top;
-}
-.teamTable ul{
-  list-style: none;
-  text-align: left;
-}
-  
 
 /* Path: enja-site\src\App.css */
