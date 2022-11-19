@@ -1,4 +1,4 @@
-import ulrica2 from './assets/ulrica2.png';
+import ulrica2 from '../assets/ulrica2.png';
 
 const UModal = ({setuIsOpen}) => {
     return (

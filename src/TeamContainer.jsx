@@ -1,8 +1,8 @@
 import ulrica1 from './assets/ulrica1.png';
 import asa2 from './assets/asa2.png';
 import {useState} from 'react';
-import UModal from './UModal';
-import AModal from './AModal';
+import UModal from './modals/UModal';
+import AModal from './modals/AModal';
 
 function TeamContainer() {
     const [usetIsOpen, setuIsOpen] = useState(false);

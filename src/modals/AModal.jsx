@@ -1,4 +1,4 @@
-import asa1 from './assets/asa1.png';
+import asa1 from '../assets/asa1.png';
 
 const AModal = ({setaIsOpen}) => {
     return (
