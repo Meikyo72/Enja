@@ -1,4 +1,4 @@
-import stenar from './assets/hand-holding-pile-pebbles.jpg';
+import puzzle from './assets/puzzle.jpg';
 import { Link } from 'react-router-dom';
 
 function ImageHeader() {
@@ -11,7 +11,7 @@ return (
         <p><q>Vi designar och utför koncept utifrån kundens förutsättningar, behov och effekter som ska uppnås.</q></p>
     </div>
     <div className='image-table'>
-        <img src={stenar} alt="stenar" />
+        <img src={puzzle} alt="puzzle" />
         <table className="bannerTable">
         <tbody>
         <tr>

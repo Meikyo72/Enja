@@ -44,6 +44,10 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
 }
+.nav-menu .activeStyle {
+  color: #e38c2d;
+  text-decoration: underline;
+}
 
 .image-header {
   display: flex;
@@ -188,6 +192,12 @@ body {
   margin: 1rem;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
 }
+.teamModal .modalBody .digitalModalImage img{
+  width: 500px;
+  height: auto;
+  margin: 1rem;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
 .teamModal .modalBody .modalText{
   display: flex;
   flex-direction: column;
@@ -203,7 +213,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 1rem;
-  margin-top: -4rem;
+  margin-top: -2rem;
 }
 .teamModal button{
   margin: 1rem;
@@ -255,6 +265,10 @@ body {
   background-color: #f9f8f7;
   border-radius: 25px;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
+.services-container .card .small-card-image img{
+  width: auto;
+  height: 150px;
 }
 .services-container .card p{
   text-align: left;
