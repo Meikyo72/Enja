@@ -24,7 +24,7 @@ return (
         Hon har arbetat många år som rektor, som kvalitets- 
          och utvecklingschef, planeringsledare på strategisk nivå och är certifierad projektledare.
     </p>
-    <p><button className="button" onClick={()=> setuIsOpen(true)}>Läs mer om Ulrika</button></p>
+    <p><button className="button" onClick={()=> setuIsOpen(true)}>Läs mer om Ulrica</button></p>
 </div>
 <div className="card">
     <img src={asa2} alt="Asa" />
