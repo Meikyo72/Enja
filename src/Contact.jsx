@@ -22,19 +22,21 @@ return (
 
 <div className="contact-container">
 <h1>Kontakt</h1>
-<p>Vad roligt att ni vill komma i kontakt med oss. Vi berättar gärna om hur vi…. 
+<p>Vad roligt att ni vill komma i kontakt med oss.
 <br/>
-Fyll i formuläret så kontaktar vi dig inom kort….
+Fyll i formuläret så kontaktar vi dig inom kort.
 </p>
 <div className='form-container'>
 <form ref={form} onSubmit={sendEmail}>
       <label>Namn</label>
-      <input type="text" name="user_name" required/>
+        <input type="text" name="user_name" required/>
       <label>Epostadress</label>
-      <input type="email" name="user_email" required/>
+        <input type="email" name="user_email" required/>
+      <label>Telefonnummer</label>
+        <input type="tel" name="user_phone"/>
       <label>Meddelande</label>
       <textarea name="message" rows={15} required/>
-      <input type="submit" value="Skicka" />
+        <input type="submit" value="Skicka" />
     </form>
     </div>
 </div>
