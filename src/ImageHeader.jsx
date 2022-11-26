@@ -13,25 +13,30 @@ return (
     <div className='image-table'>
         <img src={puzzle} alt="puzzle" />
         <table className="bannerTable">
+            <thead>
+                <tr>
+                    <th><h2>Vi erbjuder stöd och tjänster inom:</h2></th>
+                </tr>
+            </thead>
         <tbody>
         <tr>
         <td>
             <Link to="/services">
-            <h2>Strategi-, organisations- och affärsutveckling</h2>
+            <h2>- Strategi-, organisations- och affärsutveckling</h2>
             </Link>
         </td>
         </tr>
         <tr>
         <td>
             <Link to="/services">
-            <h2>Ledarskap, projekt- och förändringsledning</h2>
+            <h2>- Ledarskap, projekt- och förändringsledning</h2>
             </Link>
         </td>
         </tr>
         <tr>
         <td>
             <Link to="/services">
-            <h2>Digital transformation</h2>
+            <h2>- Digital transformation</h2>
             </Link>
         </td>
         </tr>

@@ -7,7 +7,7 @@ body {
 }
 
 #root {
-  max-width: 1280px;
+  max-width: 1500px;
   min-width: 820px;
   margin: 0 auto;
   text-align: center;
@@ -54,21 +54,19 @@ body {
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  /*background-image: url("./assets/headimg.jpg");*/
   background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));
 }
 .image-table {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /*margin-top: 5%;*/
 }
 .image-header img {
-  width: 280px;
+  width: 450px;
   height: auto;
   margin-left: auto;
   order: 1;
-  /*box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);*/
+  margin-top: -2rem;
 }
 .image-headertext {
   display: flex;
@@ -395,12 +393,18 @@ body {
 
 .bannerTable {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   order: 2;
   margin-left: auto;
   width: 50%;
+  padding-top: 7rem;
   
+}
+.bannerTable thead{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
 }
 .bannerTable a {
   text-decoration: none;
