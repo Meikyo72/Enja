@@ -3,10 +3,10 @@ import StrategiModal from './modals/StrategiModal';
 import LedarskapModal from './modals/LedarskapModal';
 import DigitalModal from './modals/DigitalModal';
 import ToolModal from './modals/ToolModal';
-import compass from './assets/compass.png';
-import toolbox from './assets/toolbox.png';
-import presentation from './assets/presentation.png';
-import meeting from './assets/meeting.png';
+import Dtransformation from './assets/Dtransformation.png';
+import Dtoolbox from './assets/Dtoolbox.png';
+import Strategy from './assets/Strategy.png';
+import Leadership from './assets/Leadership.png';
 
 function Services() {
     const [strategiOpen, setStrategiOpen] = useState(false);
@@ -21,7 +21,7 @@ return (
         <div className="card">
             <div className='card-header'><h2>Strategi-, organisations-  och affärsutveckling</h2></div>
             <div className="small-card-image">
-            <img src={presentation} alt="presentation" />
+            <img src={Strategy} alt="Strategy" />
             </div>
             <p>Inom området kan vi ge stöd, utveckla och driva:</p>
             <ul>
@@ -35,7 +35,7 @@ return (
         <div className="card">
             <div className='card-header'><h2>Ledarskap, projekt-  och förändringsledning</h2></div>
             <div className="small-card-image">
-            <img src={meeting} alt="meeting" />
+            <img src={Leadership} alt="Leadership" />
             </div>
             <p>Inom området kan vi erbjuda tjänster för bland annat:</p>
             <ul>
@@ -53,7 +53,7 @@ return (
         <div className="card">
             <div className='card-header'><h2>Digital transformation</h2></div>
             <div className="small-card-image">
-            <img src={compass} alt="compass" />
+            <img src={Dtransformation} alt="Digital transformation" />
             </div>
             <p>Digitalisering definierar vi som en metod för verksamhetsutveckling. 
                 Vi ger stöd och skapar förutsättningar för en mer ändamålsenlig styrning av organisationens digitaliseringsarbete 
@@ -63,7 +63,7 @@ return (
         <div className="card">
             <div className='card-header'><h2>Vår verktygslåda</h2></div>
             <div className="small-card-image">
-            <img src={toolbox} alt="toolbox" />
+            <img src={Dtoolbox} alt="Tool Box" />
             </div>
             <p>Vår verktygslåda grundar sig i best practice och utifrån forskning. Ur verktygslådan tar vi stöd av bland annat:</p>
             <ul>

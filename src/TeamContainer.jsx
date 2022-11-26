@@ -20,11 +20,11 @@ return (
     <p className="title">
         CFO & Grundare, Konsult
     </p>
-    <p> Ulrica har sin bakgrund inom utbildningsområdet.
-        Hon har arbetat många år som rektor, som kvalitets- 
-         och utvecklingschef, planeringsledare på strategisk nivå och är certifierad projektledare.
+    <p> Ulrica har sin bakgrund inom utbildningsområdet, med fil. mag. i pedagogik. 
+        Hon har många års erfarenhet av att arbeta som rektor, planeringsledare på strategisk nivå, 
+        förvaltningscontroller, kvalitets- och utvecklingschef och är certifierad projektledare.
     </p>
-    <p><button className="button" onClick={()=> setuIsOpen(true)}>Läs mer om Ulrica</button></p>
+    <button className="button" onClick={()=> setuIsOpen(true)}>Läs mer om Ulrica</button>
 </div>
 <div className="card">
     <img src={asa2} alt="Asa" />
@@ -36,7 +36,7 @@ return (
         Åsa har närmare 20 års erfarenhet av organisations- och verksamhetsutvecklingsfrågor 
         både i rollen som linjechef, utredare, förändringsledare och certifierad projektledare. 
     </p>
-    <p><button className="button" onClick={()=> setaIsOpen(true)}>Läs mer om Åsa</button></p>
+    <button className="button" onClick={()=> setaIsOpen(true)}>Läs mer om Åsa</button>
 </div>
 </div>
 <div className='modalContainer'>

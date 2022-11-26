@@ -21,7 +21,7 @@ const UModal = ({setuIsOpen}) => {
             </p>
             <p>
                 Under senare år har Ulrica ansvarat för att ta fram och införa strategier, styrning och ledning för digital transformation samt drivit genomförande av program och  planer för digitalisering och innovation.
-                Ett annat exempel på uppdrag de senaste åren har varit att projektleda ett tiotal statsbidragsfinansierade innovationsprojekt på en stadenövergripande nivå.
+                Ett annat exempel på uppdrag de senaste åren har varit att projektleda ett tiotal innovationsprojekt på en stadenövergripande nivå.
             </p>
             <p>
                 Ulrica har stor erfarenhet att utveckla och leda förändringsarbeten i komplexa och stora organisationer.

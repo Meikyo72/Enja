@@ -1,4 +1,4 @@
-import puzzle from './assets/puzzle.jpg';
+import puzzle from './assets/bulben.png';
 import { Link } from 'react-router-dom';
 
 function ImageHeader() {

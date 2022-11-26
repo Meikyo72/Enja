@@ -61,14 +61,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
 }
 .image-header img {
-  width: 400px;
-  height: 300px;
+  width: 280px;
+  height: auto;
   margin-left: auto;
   order: 1;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);*/
 }
 .image-headertext {
   display: flex;
@@ -137,8 +137,8 @@ body {
   text-align: left;
 }
 .team-container .card .button{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: auto;
+  margin-bottom: 0;
   padding: 0.5rem;
   border-radius: 25px;
   background-color: #d55a29;
@@ -216,7 +216,9 @@ body {
   margin-top: -2rem;
 }
 .teamModal button{
-  margin: 1rem;
+  /*margin: 1rem;*/
+  margin-top: auto;
+  margin-bottom: 0;
   padding: 0.5rem;
   width: 50px;
   height: 50px;

@@ -3,17 +3,19 @@ const ToolModal = ({setToolOpen}) => {
     return (
         <div className="teamModal">
         <div className='modalHeader'>
-            <h1>ToolModal</h1>
+            <h1>Vår verktygslåda</h1>
         </div>
         <div className='modalBody'>
         <div className='modalImage'>
         </div>
         <div className='modalText'>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero mi, pellentesque id viverra eu, auctor in augue. Phasellus luctus eleifend augue et fermentum. 
-                Nam fringilla lectus velit, suscipit rutrum ante commodo sit amet. Donec scelerisque iaculis eros eu scelerisque. Maecenas maximus posuere pretium. 
-                In sodales blandit tellus gravida bibendum. Integer ante mauris, tincidunt nec porttitor a, suscipit sed risus. 
-                Quisque dignissim metus in neque consequat finibus. Sed vitae nulla vestibulum, blandit risus a, vulputate ante. Curabitur efficitur vitae leo eu egestas.
+            På EnJa AB håller vi oss ständigt uppdaterade vad gäller forskning och har till exempel i frågor om 
+            digitalisering ett givande samarbete med ”Digital förvaltning på Göteborgs universitet”. 
+            Vår verktygslåda är full med metoder som är baserade på forskning och best practice. 
+            Exempelvis är Effektkartor en väl beprövad metod som vi ofta använder i våra uppdrag. 
+            Metoden används för att bättre förstå vilka effekter som man vill uppnå med en viss tjänst eller produkt. 
+            Effektkartor ger vägledning i hur prioriteringar ska göras för att uppnå önskad effekt. Effektkartor bidrar till att förändringsarbetet får ett tydligt fokus.​
             </p>
         </div>
         </div>
