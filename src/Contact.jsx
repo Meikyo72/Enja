@@ -28,14 +28,14 @@ Fyll i formuläret så kontaktar vi dig inom kort.
 </p>
 <div className='form-container'>
 <form ref={form} onSubmit={sendEmail}>
-      <label>Namn</label>
+      <label className='required'>Namn</label>
         <input type="text" name="user_name" required/>
-      <label>Epostadress</label>
+      <label className='required'>Epostadress</label>
         <input type="email" name="user_email" required/>
       <label>Telefonnummer</label>
         <input type="tel" name="user_phone"/>
-      <label>Meddelande</label>
-      <textarea name="message" rows={15} required/>
+      <label className='required'>Meddelande</label>
+      <textarea name="message" rows={12} required/>
         <input type="submit" value="Skicka" />
     </form>
     </div>

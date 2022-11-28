@@ -25,7 +25,7 @@ return (
             </div>
             <p>Inom området kan vi ge stöd, utveckla och driva:</p>
             <ul>
-                <li>Designa förändringskoncept inför genomförande</li>
+                <li>Designa förändringskoncept inför genomförande och omställning</li>
                 <li>Strategiutveckling</li>
                 <li>Organisationsutveckling</li>
                 <li>Styrning och ledning med fokus på digital transformation</li>
