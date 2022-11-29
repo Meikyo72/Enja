@@ -1,24 +1,29 @@
+import Strategy from '../assets/Strategy.png';
 
 const StrategiModal = ({setStrategiOpen}) => {
     return (
+        <div className='modalBg'>
         <div className="teamModal">
         <div className='modalHeader'>
-            <h1>StrategiModal</h1>
+            <h1>Strategi-, organisations- och affärsutveckling</h1>
         </div>
         <div className='modalBody'>
         <div className='modalImage'>
+        <img src={Strategy} alt="Strategy" />
         </div>
         <div className='modalText'>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam libero mi, pellentesque id viverra eu, auctor in augue. Phasellus luctus eleifend augue et fermentum. 
-            Nam fringilla lectus velit, suscipit rutrum ante commodo sit amet. Donec scelerisque iaculis eros eu scelerisque. Maecenas maximus posuere pretium. 
-            In sodales blandit tellus gravida bibendum. Integer ante mauris, tincidunt nec porttitor a, suscipit sed risus. 
-            Quisque dignissim metus in neque consequat finibus. Sed vitae nulla vestibulum, blandit risus a, vulputate ante. Curabitur efficitur vitae leo eu egestas.
+             Vår omvärld är i ständig utveckling, vilket har en stor påverkan på organisationer och affärsområden inte minst vad gäller arbetet med förändring och omställning. på 
+             EnJa stödjer vi er i arbetet med övergripande strategiska planer, organisationsutredningar och affärsplaner.
+            </p>
+            <p>
+                Konstakta oss så berättar vi mer om våra erfarenheter och referenser inom detta området.
             </p>
         </div>
         </div>
         <div className='modalFooter'>
         <button onClick={() => setStrategiOpen(false)}>Stäng</button>
+        </div>
         </div>
         </div>
     );

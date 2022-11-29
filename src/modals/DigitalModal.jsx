@@ -2,6 +2,7 @@ import trappa from '../assets/trappa.png';
 
 const DigitalModal = ({setDigitalOpen}) => {
     return (
+        <div className='modalBg'>
         <div className="teamModal">
         <div className='modalHeader'>
             <h1>Digital transformation:</h1>
@@ -12,16 +13,17 @@ const DigitalModal = ({setDigitalOpen}) => {
         </div>
         <div className='modalText'>
             <p>
-            Digitalisering definierar vi som en metod för verksamhetsutveckling. Förändringen omfattar alltid mer än den rent tekniska aspekten och det vi kallar digital transformation. Aktuell forskning pekar på att både bredd och djup av konsekvenserna ofta underskattas, med följden att digitalisering inte ges de resurser och den uppmärksamhet som den förtjänar, från alla delar i organisationen.</p>
+            Vi definierar digitalisering som en metod för verksamhetsutveckling. Det omfattar mer än den rent tekniska aspekten och är det vi kallar digital transformation.</p>
             <p> 
-            Digital transformation innebär att både utforska hur verksamheten bättre kan genomföras med stöd av digitala lösningar samt säkerställa omformning av verksamhetens processer, organisering, kultur och ledarskap för att tillfullo ta tillvara potentialen i digitalisering.</p>
+            Digital transformation innebär dels att utforska nya möjligheter för hur verksamheten bättre kan genomföras med stöd av digitala lösningar. Det innebär även att säkerställa omformning av verksamhetens processer, organisering, kultur och ledarskap för att kunna ta tillvara potentialen i digitalisering. </p>
             <p> 
-            Vi ger stöd och skapar förutsättningar för en mer ändamålsenlig styrning av organisationens digitaliseringsarbete i syfte att få ut så hög nytta och effekt av de möjligheter digitalisering kan ge.
+            Vi ger stöd och hjälper er att skapa förutsättningar för en mer ändamålsenlig styrning av organisationens digitalieringsarbete i syfte att få ut så hög nytta och effekt av de möjligheter digitalisering kan ge. 
             </p>
         </div>
         </div>
         <div className='modalFooter'>
         <button onClick={() => setDigitalOpen(false)}>Stäng</button>
+        </div>
         </div>
         </div>
     );

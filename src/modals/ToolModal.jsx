@@ -1,12 +1,15 @@
+import Dtoolbox from '../assets/Dtoolbox.png';
 
 const ToolModal = ({setToolOpen}) => {
     return (
+        <div className='modalBg'>
         <div className="teamModal">
         <div className='modalHeader'>
             <h1>Vår verktygslåda</h1>
         </div>
         <div className='modalBody'>
         <div className='modalImage'>
+        <img src={Dtoolbox} alt="Dtoolbox" />
         </div>
         <div className='modalText'>
             <p>
@@ -21,6 +24,7 @@ const ToolModal = ({setToolOpen}) => {
         </div>
         <div className='modalFooter'>
         <button onClick={() => setToolOpen(false)}>Stäng</button>
+        </div>
         </div>
         </div>
     );

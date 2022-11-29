@@ -55,6 +55,8 @@ body {
   height: 85vh;
   padding: 1rem;
   background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));
+  /*background-image: url('./assets/bluepuzzle.jpg');
+  background-size: cover;*/
 }
 .image-table {
   display: flex;
@@ -62,11 +64,11 @@ body {
   justify-content: space-evenly;
 }
 .image-header img {
-  width: 450px;
+  width: 600px;
   height: auto;
   margin-left: auto;
   order: 1;
-  margin-top: -2rem;
+  box-shadow:  0 0 12px 0 rgba(0, 0, 0, 0.2) ;
 }
 .image-headertext {
   display: flex;
@@ -156,6 +158,19 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.modalBg{
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  min-width: 820px;
+  max-width: 1500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
 .teamModal {
   z-index: 1;
   height: 85vh;
@@ -164,7 +179,7 @@ body {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  background-color: rgba(245, 244, 244, 0.97);
+  background-color: rgba(245, 244, 244, 1);
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   overflow-y: scroll;
@@ -185,16 +200,20 @@ body {
   padding: 1rem;
 }
 .teamModal .modalBody .modalImage img{
-  width: auto;
-  height: 500px;
+  width: 500px;
+  height: auto;
   margin: 1rem;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+}
+.teamModal .modalBody .modalHeadshot img{
+  width: auto;
+  height: 500px;
 }
 .teamModal .modalBody .digitalModalImage img{
   width: 500px;
   height: auto;
   margin: 1rem;
-  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: none;
 }
 .teamModal .modalBody .modalText{
   display: flex;
@@ -343,10 +362,10 @@ body {
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  /*background-color: #f9f8f7;*/
-  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));
-  /*background-image: url('./assets/kontaktbg.png');
-  background-size: cover;*/
+  /*
+  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
+  background-image: url('./assets/kontaktbg.png');
+  background-size: cover;
 }
 .form-container {
   width: 50%;
@@ -392,7 +411,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   color:#f5f4f4;
-  font-size: small;
+  font-size: x-small;
 }
 .footer-container a{
   color: #f5f4f4;

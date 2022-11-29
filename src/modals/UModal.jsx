@@ -2,12 +2,13 @@ import ulrica2 from '../assets/ulrica2.png';
 
 const UModal = ({setuIsOpen}) => {
     return (
+        <div className='modalBg'>
         <div className="teamModal">
         <div className='modalHeader'>
             <h1>Ulrica Enderberg</h1>
         </div>
         <div className='modalBody'>
-            <div className='modalImage'>
+            <div className='modalImage modalHeadshot'>
                 <img src={ulrica2} alt="Ulrica" />
             </div>
             <div className='modalText'>
@@ -30,6 +31,7 @@ const UModal = ({setuIsOpen}) => {
         </div>
         <div className='modalFooter'>
         <button onClick={() => setuIsOpen(false)}>Stäng</button>
+        </div>
         </div>
         </div>
     );

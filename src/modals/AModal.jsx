@@ -2,12 +2,13 @@ import asa1 from '../assets/asa1.png';
 
 const AModal = ({setaIsOpen}) => {
     return (
+        <div className='modalBg'>
         <div className="teamModal">
         <div className='modalHeader'>
             <h1>Åsa Jahnsson</h1>
         </div>
         <div className='modalBody'>
-        <div className='modalImage'>
+        <div className='modalImage modalHeadshot'>
                 <img src={asa1} alt="Åsa" />
         </div>
         <div className='modalText'>
@@ -30,6 +31,7 @@ const AModal = ({setaIsOpen}) => {
         </div>
         <div className='modalFooter'>
         <button onClick={() => setaIsOpen(false)}>Stäng</button>
+        </div>
         </div>
         </div>
     );

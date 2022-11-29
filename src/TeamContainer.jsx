@@ -48,7 +48,7 @@ return (
     </div>
     <p>
         Åsa har närmare 20 års erfarenhet av organisations- och verksamhetsutvecklingsfrågor 
-        både i rollen som linjechef, utredare, förändringsledare och certifierad projektledare. 
+        både i rollen som förändringsledare, certifierad projektledare, planeringsledare på strategisk nivå och chef. 
     </p>
     <button className="button" onClick={()=> setaIsOpen(true)}>Läs mer om Åsa</button>
 </div>
