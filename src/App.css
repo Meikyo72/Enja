@@ -62,13 +62,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 4rem;
 }
 .image-header img {
   width: 600px;
   height: auto;
   margin-left: auto;
   order: 1;
-  box-shadow:  0 0 12px 0 rgba(0, 0, 0, 0.2) ;
+  box-shadow:  0 0 12px 0 rgba(0, 0, 0, 0.4) ;
+  border-radius: 25px;
 }
 .image-headertext {
   display: flex;
@@ -92,6 +94,39 @@ body {
   text-align: left;
   font-style: italic;
 }
+.bannerTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 2;
+  margin-left: auto;
+  width: 50%;
+  padding-top: 2rem;
+  
+}
+.bannerTable thead{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.bannerTable a {
+  text-decoration: none;
+  color: #0e0903;
+  text-align: left;
+}
+.bannerTable a:hover {
+  opacity: 0.7;
+}
+.bannerTable tbody {
+  width: 100%;
+}
+.bannerTable tr {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
 
 /* Team ---- Start*/
 
@@ -186,13 +221,15 @@ body {
 }
 .teamModal .modalHeader {
   padding: 1rem;
-  color: #0e0903;
+  color: #f9f8f7;
+  background-color: #00303f;
 }
 .teamModal .modalBody{
   display: flex;
   text-align: left;
   align-items: flex-start;
   flex-direction: row;
+  margin-bottom: auto;
 }
 .teamModal .modalBody .modalImage {
   width: 50%;
@@ -212,7 +249,7 @@ body {
 .teamModal .modalBody .digitalModalImage img{
   width: 500px;
   height: auto;
-  margin: 1rem;
+  margin: auto;
   box-shadow: none;
 }
 .teamModal .modalBody .modalText{
@@ -224,6 +261,11 @@ body {
 .teamModal .modalBody .modalText p{
   margin: 10px auto 0 0;
   text-align: left;
+}
+.teamModal .digitalModalBody .modalText p{
+  margin: 10px auto 0 auto;
+  text-align: left;
+  width: 80%;
 }
 .teamModal .modalFooter{
   display: flex;
@@ -364,11 +406,15 @@ body {
   padding: 1rem;
   /*
   background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
+  background-color: #f5ae62;
   background-image: url('./assets/kontaktbg.png');
   background-size: cover;
 }
+.contact-container p{
+  font-size: larger;
+}
 .form-container {
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
 }
 .form-container input[type=text], input[type=email], input[type=tel], textarea {
@@ -417,38 +463,6 @@ body {
   color: #f5f4f4;
 }
 
-.bannerTable {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  order: 2;
-  margin-left: auto;
-  width: 50%;
-  padding-top: 7rem;
-  
-}
-.bannerTable thead{
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-}
-.bannerTable a {
-  text-decoration: none;
-  color: #0e0903;
-  text-align: left;
-}
-.bannerTable a:hover {
-  opacity: 0.7;
-}
-.bannerTable tbody {
-  width: 100%;
-}
-.bannerTable tr {
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  padding-left: 10px;
-}
 
 
 /* Path: enja-site\src\App.css */
