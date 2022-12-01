@@ -17,9 +17,6 @@ body {
   flex-direction: column;
   background-color: #fffffb;
   background-repeat: no-repeat;
-  /*border-radius: 25px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);*/
-  max-height: 934px;
 }
 
 .nav-menu ul{
@@ -54,23 +51,20 @@ body {
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));
-  /*background-image: url('./assets/bluepuzzle.jpg');
-  background-size: cover;*/
+  /*background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
+  background-image: url('./assets/landingbg.png');
+  background-size: cover;
 }
 .image-table {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 4rem;
 }
 .image-header img {
-  width: 600px;
-  height: auto;
+  width: auto;
+  height: 500px;
   margin-left: auto;
   order: 1;
-  box-shadow:  0 0 12px 0 rgba(0, 0, 0, 0.4) ;
-  border-radius: 25px;
 }
 .image-headertext {
   display: flex;
@@ -108,6 +102,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: flex-start;
+  padding-top: 1rem;
 }
 .bannerTable a {
   text-decoration: none;
@@ -116,9 +111,11 @@ body {
 }
 .bannerTable a:hover {
   opacity: 0.7;
+  text-decoration: underline;
 }
 .bannerTable tbody {
   width: 100%;
+  padding-top: 1rem;
 }
 .bannerTable tr {
   display: flex;
@@ -135,8 +132,10 @@ body {
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  /*background-color: #f9f8f7;*/
-  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));
+  /*background-color: #f9f8f7;
+  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
+  background-image: url('./assets/teambg.png');
+  background-size: cover;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -374,10 +373,15 @@ body {
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  /*background-color: #f9f8f7;*/
-  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));
+  /*background-color: #f9f8f7;
+  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
+  background-image: url('./assets/teambg.png');
+  background-size: cover;
   overflow: scroll;
   overflow-x: hidden;
+}
+.about-container h1{
+  margin: 2rem;
 }
 .about-container .enjaLogo {
   font-family: 'Caveat', cursive;
@@ -389,7 +393,7 @@ body {
   width: auto;
   height: 300px;
   border-radius: 25px;
-  margin: 0 auto;
+  margin: 1rem auto 1rem auto;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 .about-container p {

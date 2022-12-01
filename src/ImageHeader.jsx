@@ -1,4 +1,4 @@
-import bluepuzzle from './assets/bluepuzzle.jpg';
+import landingpuzzle from './assets/landingpuzzle.png';
 import { Link } from 'react-router-dom';
 
 function ImageHeader() {
@@ -11,7 +11,7 @@ return (
         <p><q>Vi designar och utför koncept utifrån kundens förutsättningar, behov och effekter som ska uppnås.</q></p>
     </div>
     <div className='image-table'>
-        <img src={bluepuzzle} alt="bluepuzzle" />
+        <img src={landingpuzzle} alt='orange puzzle'  />
         <table className="bannerTable">
             <thead>
                 <tr>
