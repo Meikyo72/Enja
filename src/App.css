@@ -8,7 +8,7 @@ body {
 
 #root {
   max-width: 1500px;
-  min-width: 820px;
+  min-width: 420px;
   margin: 0 auto;
   text-align: center;
 }
@@ -62,7 +62,7 @@ body {
 }
 .image-header img {
   width: auto;
-  height: 500px;
+  height: 450px;
   margin-left: auto;
   order: 1;
 }
@@ -88,12 +88,47 @@ body {
   text-align: left;
   font-style: italic;
 }
+@media screen and (max-width: 790px) {
+  .image-header {
+    overflow-y: scroll;
+  }
+  .image-table {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-header img {
+    height: 300px;
+    margin-right: auto;
+  }
+  .image-header h1 {
+    font-size: 4rem;
+    width:auto;
+  }
+  .image-header p {
+    width: 30%;
+  }
+  table.bannerTable {
+    width:100%;
+    padding-top: 0;
+  }
+  .bannerTable thead {
+    justify-content: center;
+    padding-top: 0 !important;
+  }
+  .bannerTable tbody {
+    justify-content: center;
+    padding-top: 0 !important;
+  }
+  .bannerTable tbody h2{
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+}
 .bannerTable {
   display: flex;
   flex-direction: column;
   align-items: center;
   order: 2;
-  margin-left: auto;
   width: 50%;
   padding-top: 2rem;
   
@@ -102,7 +137,10 @@ body {
   display: flex;
   width: 100%;
   justify-content: flex-start;
-  padding-top: 1rem;
+  padding-top: 2rem;
+}
+.bannerTable thead th {
+  text-align: left;
 }
 .bannerTable a {
   text-decoration: none;
@@ -116,6 +154,7 @@ body {
 .bannerTable tbody {
   width: 100%;
   padding-top: 1rem;
+  flex-direction: row;
 }
 .bannerTable tr {
   display: flex;
@@ -154,6 +193,13 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 1%;
+}
+@media screen and (max-width: 840px) {
+  .team-container .card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 }
 .team-container .card {
   display: flex;

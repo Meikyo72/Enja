@@ -22,21 +22,21 @@ return (
         <tr>
         <td>
             <Link to="/services">
-            <h2>- Strategi-, organisations- och affärsutveckling</h2>
+            <h2>Strategi-, organisations- och affärsutveckling</h2>
             </Link>
         </td>
         </tr>
         <tr>
         <td>
             <Link to="/services">
-            <h2>- Ledarskap, projekt- och förändringsledning</h2>
+            <h2>Ledarskap, projekt- och förändringsledning</h2>
             </Link>
         </td>
         </tr>
         <tr>
         <td>
             <Link to="/services">
-            <h2>- Digital transformation</h2>
+            <h2>Digital transformation</h2>
             </Link>
         </td>
         </tr>
