@@ -129,6 +129,18 @@ body {
     min-width: 460px;
   }
 }
+@media  screen and (max-width: 450px) {
+  .bannerTable tbody h2{
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  .bannerTable thead tr {
+    min-width: 300px;
+  }
+  .bannerTable tbody tr {
+    min-width: 300px;
+  }
+}
 .bannerTable {
   display: flex;
   flex-direction: column;
