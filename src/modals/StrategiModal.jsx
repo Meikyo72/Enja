@@ -7,7 +7,7 @@ const StrategiModal = ({setStrategiOpen}) => {
         <div className='modalHeader'>
             <h1>Strategi-, organisations- och affärsutveckling</h1>
         </div>
-        <div className='modalBody'>
+        <div className='modalBody serviceModalBody'>
         <div className='modalImage'>
         <img src={Strategy} alt="Strategy" />
         </div>

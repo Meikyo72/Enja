@@ -3,7 +3,7 @@ import trappa from '../assets/trappa.png';
 const DigitalModal = ({setDigitalOpen}) => {
     return (
         <div className='modalBg'>
-        <div className="teamModal">
+        <div className="teamModal digitalModal">
         <div className='modalHeader'>
             <h1>Digital transformation:</h1>
         </div>

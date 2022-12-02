@@ -7,7 +7,7 @@ const LedarskapModal = ({setLedarskapOpen}) => {
         <div className='modalHeader'>
             <h1>Ledarskap, projekt- och förändringsledning</h1>
         </div>
-        <div className='modalBody'>
+        <div className='modalBody serviceModalBody'>
         <div className='modalImage'>
         <img src={Leadership} alt="Leadership" />
         </div>
