@@ -523,6 +523,7 @@ body {
   background-color: #f5ae62;
   background-image: url('./assets/kontaktbg.png');
   background-size: cover;
+  overflow-y: scroll;
 }
 .contact-container p{
   font-size: larger;
