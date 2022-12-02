@@ -526,6 +526,11 @@ body {
   width: 40%;
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: 80%;
+  }
+}
 .form-container input[type=text], input[type=email], input[type=tel], textarea {
   width: 100%;
   padding: 12px 20px;
