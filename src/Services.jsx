@@ -61,11 +61,11 @@ return (
             <button className="button" onClick={()=> setDigitalOpen(true)}>Läs mer...</button>
         </div>
         <div className="card">
-            <div className='card-header'><h2>Vår verktygslåda</h2></div>
+            <div className='card-header'><h2>EnJas verktygslåda</h2></div>
             <div className="small-card-image">
             <img src={Dtoolbox} alt="Tool Box" />
             </div>
-            <p>Vår verktygslåda grundar sig i best practice och utifrån forskning. Ur verktygslådan tar vi stöd av bland annat:</p>
+            <p>EnJas verktygslåda grundar sig i best practice och utifrån forskning. Ur verktygslådan tar vi stöd av bland annat:</p>
             <ul>
                 <li>Förstudier</li>
                 <li>GAP-analys</li>
