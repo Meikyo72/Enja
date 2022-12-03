@@ -13,9 +13,8 @@ const ToolModal = ({setToolOpen}) => {
         </div>
         <div className='modalText'>
             <p>
-            På EnJa AB håller vi oss ständigt uppdaterade vad gäller forskning och har till exempel i frågor om 
-            digitalisering ett givande samarbete med ”Digital förvaltning på Göteborgs universitet”. 
-            Vår verktygslåda är full med metoder som är baserade på forskning och best practice.
+            På EnJa AB håller vi oss ständigt uppdaterade vad gäller forskning. 
+            Vår verktygslåda har sin grund i metoder som är baserade på forskning, standarder och best practice.
             </p>
             <p> 
             Exempelvis är Effektkartor en väl beprövad metod som vi ofta använder i våra uppdrag. 
