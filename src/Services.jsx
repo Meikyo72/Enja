@@ -28,7 +28,7 @@ return (
                 <li>Designa förändringskoncept inför genomförande och omställning</li>
                 <li>Strategiutveckling</li>
                 <li>Organisationsutveckling</li>
-                <li>Styrning och ledning med fokus på digital transformation</li>
+                <li>Styrning och ledning</li>
             </ul>
             <button className="button" onClick={()=> setStrategiOpen(true)}>Läs mer...</button>
         </div>

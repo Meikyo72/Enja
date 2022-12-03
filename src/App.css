@@ -1,6 +1,4 @@
 body {
-  /*background-color: #9ACAD2;*/
-  /*background-image: linear-gradient(180deg, rgba(154,202,210,1), rgba(154,202,210,0));*/
   background-color: #00303f;
   margin: 0;
   overflow: hidden;
@@ -41,6 +39,11 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
 }
+@media screen and (max-width: 768px) {
+  .nav-menu ul li a {
+    font-size: 0.9rem; 
+  }
+}
 .nav-menu .activeStyle {
   color: #e38c2d;
   text-decoration: underline;
@@ -51,7 +54,6 @@ body {
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  /*background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
   background-image: url('./assets/landingbg.png');
   background-size: cover;
 }
@@ -87,6 +89,7 @@ body {
   width: 15%;
   text-align: left;
   font-style: italic;
+  font-size: 1.1rem;
 }
 @media screen and (max-width: 790px) {
   .image-header {
@@ -188,8 +191,6 @@ body {
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  /*background-color: #f9f8f7;
-  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
   background-image: url('./assets/teambg.png');
   background-size: cover;
   overflow: scroll;
@@ -230,7 +231,6 @@ body {
   align-items: center;
   width: 350px;
   height: auto;
-  /*margin: 1rem;*/
   padding: 1rem;
   background-color: #f9f8f7;
   border-radius: 25px;
@@ -364,7 +364,6 @@ body {
   margin-top: -2rem;
 }
 .teamModal button{
-  /*margin: 1rem;*/
   margin-top: auto;
   margin-bottom: 0;
   padding: 0.5rem;
@@ -482,13 +481,12 @@ body {
 
 /* Services --- End*/
 
+/* About --- Start*/
 .about-container {
   display: flex;
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  /*background-color: #f9f8f7;
-  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
   background-image: url('./assets/teambg.png');
   background-size: cover;
   overflow: scroll;
@@ -524,14 +522,39 @@ body {
     color: #00303f;
   }
 }
+/* About --- End*/
 
+/* Experiences --- Start*/
+.experiences-container {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  padding: 1rem;
+  background-image: url('./assets/landingbg.png');
+  background-size: cover;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.experiences-container section{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  min-width: 300px;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  background-color: #f9f8f7;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+/* Experiences --- End*/
+
+/* contact start */
 .contact-container {
   display: flex;
   flex-direction: column;
   height: 85vh;
   padding: 1rem;
-  /*
-  background-image: linear-gradient(180deg, rgba(245, 244, 244, 1), rgba(245, 244, 244, 0));*/
   background-color: #f5ae62;
   background-image: url('./assets/kontaktbg.png');
   background-size: cover;
@@ -579,7 +602,9 @@ body {
 .form-container input[type=submit]:hover {
   opacity: 0.7;
 }
+/* Contact end */
 
+/* Footer start */
 .footer-container {
   display: flex;
   flex-direction: row;
@@ -594,6 +619,7 @@ body {
 .footer-container a{
   color: #f5f4f4;
 }
+/* Footer end */
 
 
 

@@ -6,6 +6,7 @@ import TeamContainer from './TeamContainer'
 import Services from './Services'
 import AboutRow from './AboutRow'
 import Contact from './Contact'
+import Experiences from './Experiences'
 import Footer from './Footer'
 import {Route, Routes} from 'react-router-dom'
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/team" element={<TeamContainer />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<AboutRow />} />
+        <Route path="/experiences" element={<Experiences />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

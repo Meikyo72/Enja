@@ -19,6 +19,9 @@ return (
         <li><NavLink to="/services" className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }>Tjänster</NavLink></li>
+        <li><NavLink to="/experiences" className={({ isActive }) =>
+              isActive ? activeClassName : undefined
+            }>Meriter</NavLink></li>
         <li><NavLink to="/contact" className={({ isActive }) =>
               isActive ? activeClassName : undefined
             }>Kontakt</NavLink></li>
