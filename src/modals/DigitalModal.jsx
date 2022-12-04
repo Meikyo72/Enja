@@ -8,7 +8,7 @@ const DigitalModal = ({setDigitalOpen}) => {
             <h1>Digital transformation:</h1>
         </div>
         <div className='modalBody digitalModalBody'>
-        <div className='modalImage digitalModalImage'>
+        <div className='digitalModalImage'>
             <img src={trappa} alt="digital trappa" />
         </div>
         <div className='modalText'>

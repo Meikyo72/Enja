@@ -91,6 +91,23 @@ body {
   font-style: italic;
   font-size: 1.1rem;
 }
+@media screen and (max-height: 790px) {
+  .image-header {
+    height: 80vh;
+  }
+  .image-header img {
+    height: 300px;
+  }
+  .bannerTable tbody h2{
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 878px){
+  .image-header {
+    overflow-y: scroll;
+  }
+}
 @media screen and (max-width: 790px) {
   .image-header {
     overflow-y: scroll;
@@ -200,6 +217,11 @@ body {
   font-family: 'Caveat', cursive;
   font-size: 4rem;
   color: #e38c2d;
+}
+@media screen and (max-height: 790px) {
+  .team-container {
+    height: 80vh;
+  }
 }
 @media screen and (max-width: 790px) {
   .team-container .team-header h1 {
@@ -392,6 +414,11 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
+@media screen and (max-height: 790px) {
+  .services-container {
+    height: 80vh;
+  }
+}
 .services-container img {
   width: auto;
   height: 450px;
@@ -421,6 +448,10 @@ body {
 @media screen and (max-width: 840px) {
   .services-container .card {
     width: 80%;
+  }
+  .teamModal .digitalModalBody .digitalModalImage img{
+    width: auto;
+    height: 250px;
   }
 }
 .services-container .card .small-card-image img{
@@ -468,6 +499,13 @@ body {
 .teamModal .digitalModalBody .digitalModalImage{
   text-align: center;
 }
+.teamModal .digitalModalBody .toolModalImage{
+  text-align: center;
+}
+.services-container .teamModal .modalBody .digitalModalBody .digitalModalImage img{
+  width: auto;
+  height: 350px;
+}
 .services-container .teamModal .modalBody .modalImage img{
   width: auto;
   height: 250px;
@@ -491,6 +529,11 @@ body {
   background-size: cover;
   overflow: scroll;
   overflow-x: hidden;
+}
+@media screen and (max-height: 790px) {
+  .about-container {
+    height: 80vh;
+  }
 }
 .about-container h1{
   margin: 2rem;
@@ -535,6 +578,11 @@ body {
   overflow: scroll;
   overflow-x: hidden;
 }
+@media screen and (max-height: 790px) {
+  .experiences-container {
+    height: 80vh;
+  }
+}
 .experiences-container section{
   display: flex;
   flex-direction: column;
@@ -560,6 +608,11 @@ body {
   background-size: cover;
   overflow-y: scroll;
 }
+@media screen and (max-height: 790px) {
+  .contact-container {
+    height: 80vh;
+  }
+}
 .contact-container p{
   font-size: larger;
 }
@@ -580,6 +633,7 @@ body {
   border: 2px solid #ccc;
   border-radius: 4px;
   outline: none;
+  resize: none;
 }
 .form-container .required:after{
   content: "*";

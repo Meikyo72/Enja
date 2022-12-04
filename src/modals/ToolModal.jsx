@@ -8,7 +8,7 @@ const ToolModal = ({setToolOpen}) => {
             <h1>Vår verktygslåda</h1>
         </div>
         <div className='modalBody digitalModalBody'>
-        <div className='digitalModalImage'>
+        <div className='toolModalImage'>
         <img src={Dtoolbox} alt="Dtoolbox" />
         </div>
         <div className='modalText'>
