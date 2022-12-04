@@ -8,7 +8,7 @@ return (
 <div className="image-header" id="hem">
     <div className="image-headertext">
         <h1>EnJa AB</h1>
-        <p><q>Vi designar och utför koncept utifrån kundens förutsättningar, behov och effekter som ska uppnås.</q></p>
+        <p><q>Vi designar och utför koncept utifrån kundens förutsättningar, behov och de effekter som ska uppnås.</q></p>
     </div>
     <div className='image-table'>
         <img src={landingpuzzle} alt='orange puzzle'  />
