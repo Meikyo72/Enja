@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Seo from './seo/Seo';
+import EnjaAB from './assets/EnJa-AB.png';
 
 function Contact() {
     const form = useRef();
@@ -21,6 +23,7 @@ function Contact() {
 return (
 
 <div className="contact-container">
+<Seo title="Kontakt" description="Vad roligt att ni vill komma i kontakt med oss. Fyll i formuläret så kontaktar vi dig inom kort." image={EnjaAB} url="https://enja.se/kontakt" />
 <h1>Kontakt</h1>
 <p>Vad roligt att ni vill komma i kontakt med oss.
 <br/>

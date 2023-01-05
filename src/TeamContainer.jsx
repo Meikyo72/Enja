@@ -5,6 +5,8 @@ import UModal from './modals/UModal';
 import AModal from './modals/AModal';
 import {FaLinkedin, FaEnvelope} from 'react-icons/fa';
 import {IconContext} from 'react-icons';
+import Seo  from './seo/Seo';
+import EnjaAB from './assets/EnJa-AB.png';
 
 function TeamContainer() {
     const [usetIsOpen, setuIsOpen] = useState(false);
@@ -12,6 +14,7 @@ function TeamContainer() {
 return (
 
 <div className="team-container" id="team">
+    <Seo title="EnJa AB - Team" description="Vi designar och utför koncept utifrån kundens förutsättningar, behov och de effekter som ska uppnås." image={EnjaAB} url="https://enja.se/team" />
     <div className="team-header">
     <h1>EnJa</h1>
     </div>

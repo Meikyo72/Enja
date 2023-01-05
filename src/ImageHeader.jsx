@@ -1,11 +1,14 @@
 import landingpuzzle from './assets/landingpuzzle.png';
 import { Link } from 'react-router-dom';
+import Seo  from './seo/Seo';
+import EnjaAB from './assets/EnJa-AB.png';
 
 function ImageHeader() {
 
 return (
 
 <div className="image-header" id="hem">
+    <Seo title="EnJa AB" description="Vi designar och utför koncept utifrån kundens förutsättningar, behov och de effekter som ska uppnås." image={EnjaAB} url="https://enja.se" />
     <div className="image-headertext">
         <h1>EnJa AB</h1>
         <p><q>Vi designar och utför koncept utifrån kundens förutsättningar, behov och de effekter som ska uppnås.</q></p>

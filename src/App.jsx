@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { HelmetProvider } from 'react-helmet-async'
 import './App.css'
 import Navbar from './Navbar'
 import ImageHeader from './ImageHeader'
@@ -13,6 +13,7 @@ import {Route, Routes} from 'react-router-dom'
 function App() {
 
   return (
+    <HelmetProvider>
     <div className='Content'>
       <Navbar />
       <Routes>
@@ -25,6 +26,7 @@ function App() {
       </Routes>
       <Footer />
     </div>
+    </HelmetProvider>
   )
 }
 

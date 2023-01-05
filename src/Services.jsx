@@ -7,6 +7,8 @@ import Dtransformation from './assets/Dtransformation.png';
 import Dtoolbox from './assets/Dtoolbox.png';
 import Strategy from './assets/Strategy.png';
 import Leadership from './assets/Leadership.png';
+import Seo from './seo/Seo';
+import EnjaAB from './assets/EnJa-AB.png';
 
 function Services() {
     const [strategiOpen, setStrategiOpen] = useState(false);
@@ -16,6 +18,7 @@ function Services() {
 return (
 
 <div className="services-container">
+    <Seo title="Tjänster" description="Vi erbjuder stöd och tjänster inom strategi-, organisations- och affärsutveckling, ledarskap, projekt- och förändringsledning samt digital transformation." image={EnjaAB} url="https://enja.se/services" />
     <h1>Tjänster</h1>
     <div className="card-container">
         <div className="card">

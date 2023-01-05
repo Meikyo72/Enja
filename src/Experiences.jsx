@@ -1,9 +1,12 @@
+import Seo from "./seo/Seo";
+import EnjaAB from "./assets/EnJa-AB.png";
 
 function Experiences() {
 
     return (
     
     <div className="experiences-container">
+        <Seo title="EnJa AB" description="Vi designar och utför koncept utifrån kundens förutsättningar, behov och de effekter som ska uppnås." image={EnjaAB} url="https://enja.se" />
     <h1>Tidigare erfarenheter</h1>
     <section>
         <h2>2020–2022</h2>

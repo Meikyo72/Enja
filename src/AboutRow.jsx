@@ -1,10 +1,13 @@
 import Tillsammans1 from './assets/Tillsammans1.png';
+import Seo from './seo/Seo';
+import EnjaAB from './assets/EnJa-AB.png';
 
 function AboutRow() {
 
 return (
 
 <div className="about-container">
+<Seo title="Om EnJa" description="EnJa är ett nybildat svenskt konsultbolag med vilja och ambition att driva förändring och skapa förutsättningar för önskvärda effekter och bestående värde utifrån kundens behov inom näringsliv och offentlig sektor." image={EnjaAB} url="https://enja.se/about" />
 <h1>Om <span className='enjaLogo'>EnJa</span></h1>
 <img src={Tillsammans1} alt="Tillsammans" />
 <p>
