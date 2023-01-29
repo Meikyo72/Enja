@@ -6,7 +6,7 @@ function Seo({ title, description, image, url }) {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="keywords" content="Enja, Enja AB, Digital transformation, Digitalisering, Förändringsledning, Projektledning, Ledarskap, Organisationsutveckling, Affärsutveckling, Strategi, Förändring, Förändringsarbete, Versamhetsutveckling, Utredningar, Utredning, Utredningsarbeten, Organisationsförändring, utbildning, projektledare, förändringsledare, planeringsledare, konsult" />
+      <meta name="keywords" content="Enja, Enja AB, Digital transformation, Digitalisering, Förändringsledning, Projektledning, Ledarskap, Dimios, Digital mognad, innovation, PIOS, Organisationsutveckling, Affärsutveckling, Strategi, Förändring, Förändringsarbete, Versamhetsutveckling, Utredningar, Utredning, Utredningsarbeten, Organisationsförändring, utbildning, projektledare, förändringsledare, planeringsledare, konsult" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />

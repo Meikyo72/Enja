@@ -60,11 +60,12 @@ body {
 .image-table {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
+  margin-right: 5rem;
 }
 .image-header img {
   width: auto;
-  height: 450px;
+  height: 400px;
   margin-left: auto;
   order: 1;
 }
@@ -76,13 +77,13 @@ body {
   font-family: 'Caveat', cursive;
   font-size: 8rem;
   color: #e38c2d;
-  order: 1;
+  order: 2;
   margin-left: auto;
   width: 55%;
   text-align: end;
 }
 .image-header p {
-  order: 2;
+  order: 3;
   margin-right: auto;
   margin-top: 3rem;
   margin-left: auto;
@@ -106,6 +107,9 @@ body {
 @media screen and (max-width: 878px){
   .image-header {
     overflow-y: scroll;
+  }
+  .bannerTable tbody tr{
+    text-align: left;
   }
 }
 @media screen and (max-width: 790px) {
@@ -137,7 +141,7 @@ body {
     padding-top: 0 !important;
   }
   .bannerTable tbody {
-    justify-content: center;
+    /*justify-content: center;*/
     padding-top: 0 !important;
   }
   .bannerTable tbody h2{
@@ -145,8 +149,9 @@ body {
     margin-top: 0;
   }
   .bannerTable tbody tr{
-    justify-content: center;
+    /*justify-content: center;*/
     min-width: 460px;
+    text-align: left;
   }
 }
 @media  screen and (max-width: 450px) {
@@ -167,7 +172,7 @@ body {
   align-items: center;
   order: 2;
   width: 50%;
-  padding-top: 2rem;
+  /*padding-top: 2rem;*/
   
 }
 .bannerTable thead{
@@ -190,7 +195,7 @@ body {
 }
 .bannerTable tbody {
   width: 100%;
-  padding-top: 1rem;
+  /*padding-top: 1rem;*/
   flex-direction: row;
 }
 .bannerTable tr {
@@ -198,6 +203,11 @@ body {
   width: 100%;
   justify-content: flex-start;
   padding-left: 10px;
+  padding-right: 10px;
+}
+.bannerTable tbody h3 {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -594,6 +604,9 @@ body {
   background-color: #f9f8f7;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   border-radius: 25px;
+}
+.experiences-container section p{
+  margin-top: 0;
 }
 /* Experiences --- End*/
 

@@ -44,23 +44,23 @@ return (
             <ul>
                 <li>Genomförande av verksamhets- och organisationsförändringar</li>
                 <li>Team- och ledarutveckling</li>
-                <li>Projektledning</li>
-                <li>Processledning</li>
+                <li>Projekt- och processledning</li>
                 <li>Förändringsledning / förändringsstöd</li>
                 <li>Facilitering / coachning</li>
-                <li>Interim chefslösning</li>
-                <li>Konflikthantering</li>
             </ul>
             <button className="button" onClick={()=> setLedarskapOpen(true)}>Läs mer...</button>
         </div>
         <div className="card">
-            <div className='card-header'><h2>Digital transformation</h2></div>
+            <div className='card-header'><h2>Digitalisering och innovation</h2></div>
             <div className="small-card-image">
             <img src={Dtransformation} alt="Digital transformation" />
             </div>
-            <p>Digitalisering definierar vi som en metod för verksamhetsutveckling. 
-                Vi ger stöd och skapar förutsättningar för en mer ändamålsenlig styrning av organisationens digitaliseringsarbete 
-                i syfte att få ut så hög nytta och effekt av de möjligheter digitalisering kan ge.</p>
+            <p>Inom området kan vi ge stöd, utveckla och driva:</p>
+            <ul>
+                <li>Förändring/omställning för en mer ändamålsenlig styrning av digitalisering och innovation</li>
+                <li>Analysstöd digital mognad och förmåga</li>
+                <li>Stöd vid implementering av portföljstyrning i offentlig sektor &#40;PIOS&#41;</li>
+            </ul>
             <button className="button" onClick={()=> setDigitalOpen(true)}>Läs mer...</button>
         </div>
         <div className="card">
@@ -68,15 +68,13 @@ return (
             <div className="small-card-image">
             <img src={Dtoolbox} alt="Tool Box" />
             </div>
-            <p>EnJas verktygslåda grundar sig i best practice och utifrån forskning. Ur verktygslådan tar vi stöd av bland annat:</p>
+            <p>På EnJa AB håller vi oss ständigt uppdaterade vad gäller forskning. Vår verktygslåda har sin grund i metoder som är baserade på forskning, standarder och best practice.
+            Ur verktygslådan tar vi stöd av bland annat:</p>
             <ul>
-                <li>Förstudier</li>
-                <li>GAP-analys</li>
-                <li>Omvärldsanalys</li>
-                <li>Nulägeanalys</li>
-                <li>Processkartläggning</li>
+                <li>Förstudier/utredningar</li>
+                <li>Analyser, exempelvis GAP-, omvärlds-, nuläges- och mognadsanalys</li>
+                <li>Metoder för förändringsledning och projektstyrning</li>
             </ul>
-            <button className="button" onClick={()=> setToolOpen(true)}>Läs mer...</button>
         </div>
         <div className='modalContainer'>
             {strategiOpen && <StrategiModal setStrategiOpen={setStrategiOpen} />}

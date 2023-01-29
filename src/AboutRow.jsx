@@ -11,7 +11,7 @@ return (
 <h1>Om <span className='enjaLogo'>EnJa</span></h1>
 <img src={Tillsammans1} alt="Tillsammans" />
 <p>
-EnJa är ett nybildat svenskt konsultbolag med vilja och ambition att driva förändring och skapa förutsättningar för önskvärda effekter och bestående värde utifrån kundens behov inom näringsliv och offentlig sektor.
+EnJa är ett nybildat konsultbolag med vilja och ambition att driva förändring och skapa förutsättningar för önskvärda effekter och bestående värde utifrån kundens behov inom näringsliv och offentlig sektor.
 </p>
 <p>   
 Vi stödjer kunden genom att skapa och ge förutsättningar för ökad kunskap – insikt – handling. Det gör vi genom att konkret realisera den förbättringspotential som finns i verksamheten. Vi skapar driv i förändringsarbetet genom att tydliggöra nuläge och önskvärt läge, utveckla och införa strategier.
