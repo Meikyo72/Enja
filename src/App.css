@@ -119,10 +119,13 @@ body {
   .image-table {
     display: flex;
     flex-direction: column;
+    margin-right: 9rem;
   }
   .image-header img {
-    height: 300px;
+    height: 200px;
     margin-right: auto;
+    margin-top: -100px;
+    margin-left: 50px;
   }
   .image-header h1 {
     font-size: 4rem;
@@ -130,6 +133,7 @@ body {
   }
   .image-header p {
     width: 30%;
+    font-size: 1rem;
   }
   table.bannerTable {
     width:100%;
@@ -140,13 +144,17 @@ body {
     min-width: 460px;
     padding-top: 0 !important;
   }
+  .bannerTable thead th h3{
+    font-size: 1rem;
+  }
   .bannerTable tbody {
     /*justify-content: center;*/
     padding-top: 0 !important;
   }
-  .bannerTable tbody h2{
+  .bannerTable tbody h3{
     font-size: 1.2rem;
     margin-top: 0;
+    font-size: 1rem;
   }
   .bannerTable tbody tr{
     /*justify-content: center;*/
@@ -155,7 +163,11 @@ body {
   }
 }
 @media  screen and (max-width: 450px) {
-  .bannerTable tbody h2{
+  .image-header img {
+    margin-top: -165px;
+    margin-left: 30px;
+  }
+  .bannerTable tbody h3{
     font-size: 1rem;
     margin-top: 0;
   }

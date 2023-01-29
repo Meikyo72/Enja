@@ -59,7 +59,6 @@ return (
             <ul>
                 <li>Förändring/omställning för en mer ändamålsenlig styrning av digitalisering och innovation</li>
                 <li>Analysstöd digital mognad och förmåga</li>
-                <li>Stöd vid implementering av portföljstyrning i offentlig sektor &#40;PIOS&#41;</li>
             </ul>
             <button className="button" onClick={()=> setDigitalOpen(true)}>Läs mer...</button>
         </div>
